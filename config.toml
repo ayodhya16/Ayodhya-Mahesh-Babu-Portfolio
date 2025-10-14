@@ -1,0 +1,62 @@
+baseURL = "https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/"
+languageCode = "en-us"
+title = "Ayodhya Mahesh Babu"
+theme = "blowfish"
+enableRobotsTXT = true
+[pagination]
+  pagerSize = 5
+
+
+[params]
+  description = "Engineer | Cloud | AI-ML | Software Developer"
+  themeColor = "auto"
+  layout = "hero"
+
+  [params.hero]
+    name = "Hi, I am Ayodhya Mahesh Babu"
+    subtitle = "Engineer"
+    description = "I build scalable and intelligent systems — APIs, cloud apps, and ML-powered solutions — with a focus on automation, reliability, and performance."
+    image = "" # optional: path to your photo (e.g. "images/profile.jpg")
+
+    [[params.hero.buttons]]
+      text = "X Twitter"
+      icon = "fa-brands fa-x-twitter"
+      url = "https://x.com/maheshbabu168"
+
+    [[params.hero.buttons]]
+      text = "LinkedIn"
+      icon = "fa-brands fa-linkedin"
+      url = "https://www.linkedin.com/in/ayodhya-mahesh-babu-387845254/"
+
+    [[params.hero.buttons]]
+      text = "GitHub"
+      icon = "fa-brands fa-github"
+      url = "https://github.com/ayodhya16"
+
+    [[params.hero.buttons]]
+      text = "Mail"
+      icon = "fa-solid fa-envelope"
+      url = "mailto:maheshbabumb08@gmail.com"
+
+    [[params.hero.buttons]]
+      text = "YouTube"
+      icon = "fa-brands fa-youtube"
+      url = "https://www.youtube.com/@maheshbabu2221"
+
+[menu]
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Blogs"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
