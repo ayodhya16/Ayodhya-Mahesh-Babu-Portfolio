@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ayodhya Mahesh Babu</title>
+    <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/</link>
+    <description>Recent content in Projects on Ayodhya Mahesh Babu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2025 Ayodhya Mahesh Babu</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 23:15:37 +0530</lastBuildDate><atom:link href="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Resume Ops - AWS Static Resume &amp; View-Tracking</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</guid>
+      <description>&lt;p&gt;End-to-End Production-Grade Deployment: Advanced DevOps Practices on AWS&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;&#34;
+    src=&#34;./featured.png&#34;
+    &gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About Project&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a professional resume website hosted on AWS, utilizing various AWS services for robustness and security.&lt;/li&gt;
+&lt;li&gt;Leveraged AWS CloudFront CDN for efficient content delivery and AWS S3 bucket for hosting static website content, ensuring scalability and reliability.&lt;/li&gt;
+&lt;li&gt;Implemented HTTPS protocol for enhanced security, supported by SSL/TLS certificate managed by AWS Certificate Manager.&lt;/li&gt;
+&lt;li&gt;Managed DNS with AWS Route 53 for seamless domain management and resolution.&lt;/li&gt;
+&lt;li&gt;Engineered a view tracking API using Go language, integrated with AWS DynamoDB for efficient data storage and retrieval.&lt;/li&gt;
+&lt;li&gt;Containerized the View Tracking API using Docker for streamlined deployment and scalability.&lt;/li&gt;
+&lt;li&gt;Orchestrated deployment pipeline on AWS utilizing AWS CodePipeline, CodeBuild, and CodeDeploy for automated building, testing, and deployment of the API Docker image.&lt;/li&gt;
+&lt;li&gt;Employed various AWS services including IAM Roles and IAM Users for secure access management and authorization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Source Code
+    &lt;div id=&#34;source-code&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#source-code&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Build Website
+    &lt;div id=&#34;build-website&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#build-website&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Build a simple static Resume Website. I used this &lt;a
+  href=&#34;https://themes.3rdwavemedia.com/bootstrap-templates/resume/risen-free-bootstrap-5-dark-mode-resume-cv-template-for-developers/&#34;
+    target=&#34;_blank&#34;
+  &gt;Bootstrap Template&lt;/a&gt;.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

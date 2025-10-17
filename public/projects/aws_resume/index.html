@@ -1,0 +1,2208 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/Ayodhya-Mahesh-Babu-Portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Ayodhya-Mahesh-Babu-Portfolio/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>Resume Ops - AWS Static Resume & View-Tracking &middot; Ayodhya Mahesh Babu</title>
+    <meta name="title" content="Resume Ops - AWS Static Resume & View-Tracking &middot; Ayodhya Mahesh Babu">
+  
+
+  
+  
+    <meta name="description" content="AWS Resume">
+  
+  
+    <meta name="keywords" content="Cloudfront,S3,Route 53,Dynamo DB,Go,AWS CodePipeline,AWS CodeBuild,AWS CodeDeploy,AWS Systems Manager,AWS Certificate Manager,">
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/">
+  
+
+  
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/">
+  <meta property="og:site_name" content="Ayodhya Mahesh Babu">
+  <meta property="og:title" content="Resume Ops - AWS Static Resume & View-Tracking">
+  <meta property="og:description" content="AWS Resume">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-10-17T23:15:37+05:30">
+    <meta property="article:modified_time" content="2025-10-17T23:15:37+05:30">
+    <meta property="article:tag" content="Cloudfront">
+    <meta property="article:tag" content="S3">
+    <meta property="article:tag" content="Route 53">
+    <meta property="article:tag" content="Dynamo DB">
+    <meta property="article:tag" content="Go">
+    <meta property="article:tag" content="AWS CodePipeline">
+    <meta property="og:image" content="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png">
+  <meta name="twitter:title" content="Resume Ops - AWS Static Resume & View-Tracking">
+  <meta name="twitter:description" content="AWS Resume">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+  
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/Ayodhya-Mahesh-Babu-Portfolio/css/main.bundle.min.55f51ee019e90309aa4f393dfaa999358e89f8107937bf1b4c111106558631e8084effce1c3ee3c928e69e1eacbcf3165da688ef4bae98f626a1ad420f47c189.css"
+    integrity="sha512-VfUe4BnpAwmqTzk9&#43;qmZNY6J&#43;BB5N78bTBERBlWGMegITv/OHD7jySjmnh6svPMWXaaI70uumPYmoa1CD0fBiQ==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/Ayodhya-Mahesh-Babu-Portfolio/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/Ayodhya-Mahesh-Babu-Portfolio/lib/zoom/zoom.min.umd.b4b722fcb5d42f34f52b30a92f3521b69f403ca9d96d0d6179eb537cb870f5d83fdf1fe836688d95d5c99fefbda4170487711006e56051fa67ea00da10521721.js" integrity="sha512-tLci/LXULzT1KzCpLzUhtp9APKnZbQ1heetTfLhw9dg/3x/oNmiNldXJn&#43;&#43;9pBcEh3EQBuVgUfpn6gDaEFIXIQ=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/Ayodhya-Mahesh-Babu-Portfolio/js/main.bundle.min.f16cf48651044bc66625c8008eb5605cc702530530daa081ce7e495e50adf778bef6cd0747382983caf5e5cc745c819dd7a969e17e545119dff14346f4fcb977.js"
+      integrity="sha512-8Wz0hlEES8ZmJcgAjrVgXMcCUwUw2qCBzn5JXlCt93i&#43;9s0HRzgpg8r15cx0XIGd16lp4X5UURnf8UNG9Py5dw=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/Ayodhya-Mahesh-Babu-Portfolio/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  <link rel="stylesheet" href="/Ayodhya-Mahesh-Babu-Portfolio/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/repo-cards.min.a4b7d5f916f84c0b09c660c2673c085b1a97daea9f26c3460ed55d601999f51e64cd81e952cb171167efbfd3c2d26605105b603a9083c058ed16d06acbdd0483.css" integrity="sha512-pLfV&#43;Rb4TAsJxmDCZzwIWxqX2uqfJsNGDtVdYBmZ9R5kzYHpUssXEWfvv9PC0mYFEFtgOpCDwFjtFtBqy90Egw==">
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/Ayodhya-Mahesh-Babu-Portfolio/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Ayodhya-Mahesh-Babu-Portfolio/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Ayodhya-Mahesh-Babu-Portfolio/favicon-16x16.png">
+    <link rel="manifest" href="/Ayodhya-Mahesh-Babu-Portfolio/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Projects",
+    "name": "Resume Ops - AWS Static Resume \u0026 View-Tracking",
+    "headline": "Resume Ops - AWS Static Resume \u0026 View-Tracking",
+    "description": "AWS Resume",
+    "abstract": "\u003cp\u003eEnd-to-End Production-Grade Deployment: Advanced DevOps Practices on AWS\u003c\/p\u003e\n\u003cp\u003e\u003cfigure\u003e\u003cimg\r\n    class=\u0022my-0 rounded-md\u0022\r\n    loading=\u0022lazy\u0022\r\n    decoding=\u0022async\u0022\r\n    fetchpriority=\u0022low\u0022\r\n    alt=\u0022\u0022\r\n    src=\u0022.\/featured.png\u0022\r\n    \u003e\u003c\/figure\u003e\r\n\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eAbout Project\u003c\/strong\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eDeveloped a professional resume website hosted on AWS, utilizing various AWS services for robustness and security.\u003c\/li\u003e\n\u003cli\u003eLeveraged AWS CloudFront CDN for efficient content delivery and AWS S3 bucket for hosting static website content, ensuring scalability and reliability.\u003c\/li\u003e\n\u003cli\u003eImplemented HTTPS protocol for enhanced security, supported by SSL\/TLS certificate managed by AWS Certificate Manager.\u003c\/li\u003e\n\u003cli\u003eManaged DNS with AWS Route 53 for seamless domain management and resolution.\u003c\/li\u003e\n\u003cli\u003eEngineered a view tracking API using Go language, integrated with AWS DynamoDB for efficient data storage and retrieval.\u003c\/li\u003e\n\u003cli\u003eContainerized the View Tracking API using Docker for streamlined deployment and scalability.\u003c\/li\u003e\n\u003cli\u003eOrchestrated deployment pipeline on AWS utilizing AWS CodePipeline, CodeBuild, and CodeDeploy for automated building, testing, and deployment of the API Docker image.\u003c\/li\u003e\n\u003cli\u003eEmployed various AWS services including IAM Roles and IAM Users for secure access management and authorization.\u003c\/li\u003e\n\u003c\/ul\u003e\n\r\n\u003ch2 class=\u0022relative group\u0022\u003eSource Code\r\n    \u003cdiv id=\u0022source-code\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\r\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#source-code\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e\r\n    \r\n\u003c\/h2\u003e\r\n\n\r\n\u003ch2 class=\u0022relative group\u0022\u003eBuild Website\r\n    \u003cdiv id=\u0022build-website\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\r\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#build-website\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e\r\n    \r\n\u003c\/h2\u003e\r\n\u003cp\u003eBuild a simple static Resume Website. I used this \u003ca\r\n  href=\u0022https:\/\/themes.3rdwavemedia.com\/bootstrap-templates\/resume\/risen-free-bootstrap-5-dark-mode-resume-cv-template-for-developers\/\u0022\r\n    target=\u0022_blank\u0022\r\n  \u003eBootstrap Template\u003c\/a\u003e.\u003c\/p\u003e",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/Ayodhya-Mahesh-Babu-Portfolio\/projects\/aws_resume\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-10-17T23:15:37\u002b05:30",
+    "datePublished": "2025-10-17T23:15:37\u002b05:30",
+    
+    "dateModified": "2025-10-17T23:15:37\u002b05:30",
+    
+    "keywords": ["Cloudfront","S3","Route 53","Dynamo DB","Go","AWS CodePipeline","AWS CodeBuild","AWS CodeDeploy","AWS Systems Manager","AWS Certificate Manager"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1529"
+  }]
+  </script>
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
+  
+  
+
+  <div class="flex flex-1 items-center justify-between">
+    <nav class="flex space-x-3">
+      
+        <a href="/Ayodhya-Mahesh-Babu-Portfolio/" class="text-base font-medium">
+          Ayodhya Mahesh Babu
+        </a>
+      
+    </nav>
+    
+  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+    
+      
+        
+  <a
+  href="/Ayodhya-Mahesh-Babu-Portfolio/resume/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Resume"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Resume
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/Ayodhya-Mahesh-Babu-Portfolio/projects/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Projects"
+  title="Projects">
+  
+  
+    <p class="text-base font-medium">
+      Projects
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/Ayodhya-Mahesh-Babu-Portfolio/contact/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Contact"
+  title="Contact">
+  
+    <span class="mr-1">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></span>
+    </span>
+  
+  
+    <p class="text-base font-medium">
+      Contact
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="https://github.com/ayodhya16"
+  target="_blank"
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="github"
+  title="">
+  
+    <span >
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span>
+    </span>
+  
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="https://x.com/maheshbabu168"
+  target="_blank"
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="x-twitter"
+  title="">
+  
+    <span >
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
+    </span>
+  
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="https://www.youtube.com/@maheshbabu2221"
+  target="_blank"
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="youtube"
+  title="">
+  
+    <span >
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span>
+    </span>
+  
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="https://www.linkedin.com/in/ayodhya-mahesh-babu-387845254/"
+  target="_blank"
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="linkedin"
+  title="">
+  
+    <span >
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span>
+    </span>
+  
+  
+</a>
+
+
+
+      
+    
+
+    
+
+    
+
+    
+      <button
+        id="search-button"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <div class=" flex items-center">
+        <button
+          id="appearance-switcher"
+          aria-label="Dark mode switcher"
+          type="button"
+          class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+          <div class="flex items-center justify-center dark:hidden">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div class="items-center justify-center hidden dark:flex">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </nav>
+
+    
+  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+    <span></span>
+
+    
+
+    
+
+    
+      <button
+        id="search-button-mobile"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <button
+        id="appearance-switcher-mobile"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400 me-1">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    
+  </div>
+
+  </div>
+  
+  <div class="-my-2 md:hidden">
+    <div id="menu-button" class="block">
+      
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
+          <ul
+            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
+            <li id="menu-close-button">
+              <span
+                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+              </span>
+            </li>
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/Ayodhya-Mahesh-Babu-Portfolio/resume/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Resume"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Resume
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/Ayodhya-Mahesh-Babu-Portfolio/projects/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Projects"
+    title="Projects">
+    
+    
+      <p class="text-bg font-bg">
+        Projects
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/Ayodhya-Mahesh-Babu-Portfolio/contact/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Contact"
+    title="Contact">
+    
+      <div class="mr-2">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></span>
+      </div>
+    
+    
+      <p class="text-bg font-bg">
+        Contact
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="https://github.com/ayodhya16"
+    
+      target="_blank"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="github"
+    title="">
+    
+      <div >
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span>
+      </div>
+    
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="https://x.com/maheshbabu168"
+    
+      target="_blank"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="x-twitter"
+    title="">
+    
+      <div >
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
+      </div>
+    
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="https://www.youtube.com/@maheshbabu2221"
+    
+      target="_blank"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="youtube"
+    title="">
+    
+      <div >
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span>
+      </div>
+    
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="https://www.linkedin.com/in/ayodhya-mahesh-babu-387845254/"
+    
+      target="_blank"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="linkedin"
+    title="">
+    
+      <div >
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span>
+      </div>
+    
+    
+  </a>
+</li>
+
+
+
+            
+
+          </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/Ayodhya-Mahesh-Babu-Portfolio/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js"
+  integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
+  data-blur-id="menu-blur"></script>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/Ayodhya-Mahesh-Babu-Portfolio/"
+      ></a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/Ayodhya-Mahesh-Babu-Portfolio/projects/"
+      >Projects</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/"
+      >Resume Ops - AWS Static Resume &amp; View-Tracking</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Resume Ops - AWS Static Resume & View-Tracking
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-10-17T23:15:37&#43;05:30">17 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span
+    id="views_projects\aws_resume\index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="views"
+    >loading</span
+  >
+  <span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></span>
+</span>
+
+    
+
+    
+    
+  </div>
+
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  
+
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#source-code">Source Code</a></li>
+    <li><a href="#build-website">Build Website</a></li>
+    <li><a href="#website-hosting">Website Hosting</a></li>
+    <li><a href="#why-do-we-need-cloudfront">Why do we need Cloudfront?</a></li>
+    <li><a href="#route-53">Route 53</a></li>
+    <li><a href="#ci-pipeline-for-frontend-code">CI pipeline for frontend Code.</a></li>
+    <li><a href="#view-tracking-api">View Tracking API</a>
+      <ul>
+        <li><a href="#containerize-the-api">Containerize the API</a></li>
+        <li><a href="#ci-pipline-using-aws-codebuild">CI pipline using AWS CodeBuild</a></li>
+        <li><a href="#cd-pipeline-using-aws-codedeploy">CD pipeline using AWS CodeDeploy</a></li>
+      </ul>
+    </li>
+    <li><a href="#running-the-api">Running the API</a></li>
+    <li><a href="#errors">ERRORS</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#source-code">Source Code</a></li>
+    <li><a href="#build-website">Build Website</a></li>
+    <li><a href="#website-hosting">Website Hosting</a></li>
+    <li><a href="#why-do-we-need-cloudfront">Why do we need Cloudfront?</a></li>
+    <li><a href="#route-53">Route 53</a></li>
+    <li><a href="#ci-pipeline-for-frontend-code">CI pipeline for frontend Code.</a></li>
+    <li><a href="#view-tracking-api">View Tracking API</a>
+      <ul>
+        <li><a href="#containerize-the-api">Containerize the API</a></li>
+        <li><a href="#ci-pipline-using-aws-codebuild">CI pipline using AWS CodeBuild</a></li>
+        <li><a href="#cd-pipeline-using-aws-codedeploy">CD pipeline using AWS CodeDeploy</a></li>
+      </ul>
+    </li>
+    <li><a href="#running-the-api">Running the API</a></li>
+    <li><a href="#errors">ERRORS</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+    let isJumpingToAnchor = false
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      if (isJumpingToAnchor) {
+        for (let i = 0; i < anchors.length; i++) {
+          const anchor = anchors[i]
+          if (!tocIds.has(anchor.id)) continue
+          const top = anchor.getBoundingClientRect().top + window.scrollY
+          if (Math.abs(window.scrollY - top) < 100) {
+            return anchor.id
+          }
+        }
+      }
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = true
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          isJumpingToAnchor = true
+        })
+      })
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
+
+
+            
+          </div>
+        </div>
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>End-to-End Production-Grade Deployment: Advanced DevOps Practices on AWS</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="./featured.png"
+    ></figure>
+</p>
+<p><strong>About Project</strong></p>
+<ul>
+<li>Developed a professional resume website hosted on AWS, utilizing various AWS services for robustness and security.</li>
+<li>Leveraged AWS CloudFront CDN for efficient content delivery and AWS S3 bucket for hosting static website content, ensuring scalability and reliability.</li>
+<li>Implemented HTTPS protocol for enhanced security, supported by SSL/TLS certificate managed by AWS Certificate Manager.</li>
+<li>Managed DNS with AWS Route 53 for seamless domain management and resolution.</li>
+<li>Engineered a view tracking API using Go language, integrated with AWS DynamoDB for efficient data storage and retrieval.</li>
+<li>Containerized the View Tracking API using Docker for streamlined deployment and scalability.</li>
+<li>Orchestrated deployment pipeline on AWS utilizing AWS CodePipeline, CodeBuild, and CodeDeploy for automated building, testing, and deployment of the API Docker image.</li>
+<li>Employed various AWS services including IAM Roles and IAM Users for secure access management and authorization.</li>
+</ul>
+
+<h2 class="relative group">Source Code
+    <div id="source-code" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#source-code" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+
+<h2 class="relative group">Build Website
+    <div id="build-website" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#build-website" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Build a simple static Resume Website. I used this <a
+  href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/risen-free-bootstrap-5-dark-mode-resume-cv-template-for-developers/"
+    target="_blank"
+  >Bootstrap Template</a>.</p>
+
+<h2 class="relative group">Website Hosting
+    <div id="website-hosting" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#website-hosting" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Host the content on S3 Bucket</p>
+<ul>
+<li>Create a S3 Bucket as same name as you Domain name.</li>
+<li>Remove check from <em><strong>Block Public Access</strong></em> .</li>
+<li>Upload all the website files.</li>
+<li>Enable Static Website hosting.
+<ul>
+<li>
+<p>Go to <em><strong>Properties</strong></em> &gt; <em><strong>Static website hosting</strong></em></p>
+</li>
+<li>
+<p>Enable it &amp; fill <em><strong>Index Document</strong></em>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="./img/static_enable.png"
+    ></figure>
+</p>
+</li>
+<li>
+<p>Go to the URL it has created, you will get 403 error
+WHY? What happens?</p>
+<ul>
+<li>We need to allow to access S3 by defining Bucket Policy</li>
+</ul>
+<pre tabindex="0"><code>{
+    &#34;Version&#34;: &#34;2012-10-17&#34;,
+    &#34;Statement&#34;: [
+        {
+            &#34;Sid&#34;: &#34;AddPerm&#34;,
+            &#34;Effect&#34;: &#34;Allow&#34;,
+            &#34;Principal&#34;: &#34;*&#34;,
+            &#34;Action&#34;: &#34;s3:GetObject&#34;,
+            &#34;Resource&#34;: &#34;arn:aws:s3:::YOUR_BUCKET_NAME/*&#34;
+        }
+    ]
+}
+</code></pre></li>
+<li>
+<p>Now visit the Static website URL of S3 bucket, website is accessible now
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="./img/resume_website01.png"
+    ></figure>
+</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>Issue :</strong> We unchecked the <em><strong>Block Public Access</strong></em>, which makes the S3 bucket&rsquo;s content accessible to everyone even to hackers which is an security issue.</p></blockquote>
+
+<h2 class="relative group">Why do we need Cloudfront?
+    <div id="why-do-we-need-cloudfront" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#why-do-we-need-cloudfront" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Now our website is puclicly accessible, why do we need the Cloudfront.</p>
+<p>CloudFront is a Content Delivery Network(CDN) service also provided by AWS, it enables users to deliver content globally with low latency, high data transfer speed, and securely delivered.
+leveraging AWS edge locations around the world to cache and deliver content from the nearest location to the user, reducing latency and improving performance.
+It also offers features such as SSL/TLS encryption, access controls, and real-time metrics.</p>
+<blockquote>
+<p><strong>Issue :</strong> Our Website is not secure, it is using <em><strong>http</strong></em> protocol
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="./img/http.png"
+    ></figure>
+</p></blockquote>
+<ul>
+<li>
+<p>First, check the <em><strong>Block Public Access</strong></em> on S3 bucket.</p>
+</li>
+<li>
+<p>Create a SSL certificate using <em>AWS Certificate Manager</em>, create this certificate in North Verginia region.</p>
+</li>
+<li>
+<p>Create a CNAME record for this certificate in Hosted Zone.</p>
+</li>
+<li>
+<p>Create Cloudfront Distribution</p>
+</li>
+</ul>
+<p>After creating the CDN, add the Bucket policy (CDN will provide you after creating it) to S3 bucket, so that you can not view content of S3 bucket without bypassing the CDN.</p>
+<ul>
+<li>Create CNAME record with SSL certificate while creating the CDN, so it can use HTTPS protocol.</li>
+</ul>
+<p>Visit the CDN url, our resume website is live now, but it is not using our Domain name.</p>
+
+<h2 class="relative group">Route 53
+    <div id="route-53" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#route-53" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>To manage our DNS records.</p>
+<ul>
+<li>
+<p>Create a Hosted Zone.</p>
+</li>
+<li>
+<p>Add the Nameservers of Hosted Zone to the Domain Provider Nameservers.
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="./img/ns_hostinger.png"
+    ></figure>
+</p>
+</li>
+<li>
+<p>Create a <em><strong>A Record</strong></em> in hosted zone for <em>Alias</em> to redirect the request from domain name to CloudFront Distribution.</p>
+</li>
+</ul>
+
+<h2 class="relative group">CI pipeline for frontend Code.
+    <div id="ci-pipeline-for-frontend-code" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ci-pipeline-for-frontend-code" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>We have to upload modified files to S3 bucket and remove the previous ones.</p>
+<ul>
+<li>Using Github Actions.</li>
+<li>Do not use AWS credentials publicly, use them as secret variables.</li>
+</ul>
+<pre tabindex="0"><code>name: Push to S3
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup AWS CLI
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      - name: Sync files to S3 bucket
+        run: |
+          aws s3 sync ./website s3://harisheoran.xyz --delete
+</code></pre>
+<h2 class="relative group">View Tracking API
+    <div id="view-tracking-api" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#view-tracking-api" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>API is build using Go, Gin Framework and AWS SDK v2. It uses AWS Dynamo DB to store the views.</p>
+<p><em><strong>Working</strong></em> : When we send a GET request on &ldquo;/&rdquo; endpoint, it fetch the current views and add one more to it and save it to the database.</p>
+
+<h3 class="relative group">Containerize the API
+    <div id="containerize-the-api" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#containerize-the-api" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Using Go lang as base image, download the dependencies and build a executable file and run it.</p>
+<pre tabindex="0"><code>FROM golang:1.22
+
+WORKDIR /app
+
+COPY go.* ./
+
+RUN go mod download
+
+COPY . .
+
+RUN mkdir build
+
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o build/main .
+
+EXPOSE 4000
+
+ENTRYPOINT [ &#34;./build/main&#34; ]
+</code></pre><p><em><strong>My learning &amp; mistakes during building docker image</strong></em></p>
+<ul>
+<li>Localhost is the localhost of docker itself not the host machine.</li>
+<li>Multistage Docker build issue - Can&rsquo;t access the shell of container.</li>
+<li>Docker Volume helps a lot
+<ul>
+<li>In development to sync local directory with container</li>
+<li>Named Volume (Anonymous Volumes) help in not syncing the container&rsquo;s specific directory</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Bash Script is a must skill to have - $(pwd)</p></blockquote>
+<pre tabindex="0"><code> docker container run -v $(pwd):/app -v name:/app/main -d -p 4000:4000 --env-file ./.env view_api_img
+</code></pre><ul>
+<li>Checking the logs of the container.</li>
+<li>Setting the environment for container.</li>
+</ul>
+
+<h3 class="relative group">CI pipline using AWS CodeBuild
+    <div id="ci-pipline-using-aws-codebuild" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ci-pipline-using-aws-codebuild" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p><em><strong>Purpose</strong></em>: To build the API image and push to Docker Hub Registry.</p>
+<ul>
+<li>
+<p>Create an IAM Role.</p>
+</li>
+<li>
+<p>Create a Group for the project and attach the policy for <em>AWS CODEBUILD</em> full access.</p>
+</li>
+<li>
+<p>Creae a user and add to the group and attach Policies.</p>
+<ul>
+<li>List IAM Role (To attach it in Code build service role)</li>
+<li>To pass a role to a service (here we are giving role to our CodeBuild service).</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Pipeline</strong></em>: Checkout the code from Github Repository and use Dockerfile to build the image and push to Docker Hub using Docker Credentials.</p>
+</li>
+<li>
+<p>Connect to the Github account.</p>
+</li>
+<li>
+<p>Need a Service Role -</p>
+<ul>
+<li>WHY? : So that CodeBuild can perform action on your behalf.</li>
+<li>How it works: First for which service you need this role and give it permission(Attach policies) for what it is going to do like in our case it need to access <em>AWS Systems Manager Parameter store</em>.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Buildspec file</strong></em>: Define how your CI is going to do.</p>
+<p>Steps:</p>
+<ul>
+<li>
+<p>Login to Docker Hub, build the image and push the image</p>
+</li>
+<li>
+<p>Credentials: Store them in <em>AWS Systems Manager Parameter store</em>.</p>
+</li>
+<li>
+<p>Logs are very important, so use the <em>Cloudwatch</em> logs.</p>
+</li>
+<li>
+<p>Store this file in root directory.</p>
+<pre tabindex="0"><code># buildspec.yml
+version: 0.2
+env:
+    parameter-store:
+        DOCKER_USERNAME: docker_username
+        DOCKER_PASSWORD: docker_password
+        DOCKER_URL: docker_url
+phases:
+    build:
+        commands:
+            - cd tracker_api/
+            - echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin $DOCKER_URL
+            - docker build -t &#34;$DOCKER_USERNAME/view_api_img:latest&#34; .
+            - docker push &#34;$DOCKER_USERNAME/view_api_img:latest&#34;
+    post_build:
+        commands:
+            - echo &#34;Successfully pushed to Docker hub Registry&#34;
+artifacts:
+    files:
+        - &#39;**/*&#39;
+    name: my-artifact
+</code></pre></li>
+</ul>
+</li>
+</ul>
+
+<h3 class="relative group">CD pipeline using AWS CodeDeploy
+    <div id="cd-pipeline-using-aws-codedeploy" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cd-pipeline-using-aws-codedeploy" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p><em><strong>Purpose</strong></em>: To deploy and run the latest code of application on target compute platform.</p>
+<blockquote>
+<p>Is it looking for change in the codebase?
+Is it invoked by AWS Pipeline?</p></blockquote>
+<ul>
+<li>
+<p>Create Target Compute &gt; EC2 instance.</p>
+</li>
+<li>
+<p>First, go to CodeDeploy &gt; Applications &gt; Create application and create an application, choose the EC2 as compute platform.</p>
+</li>
+<li>
+<p>Create Deployment Group.</p>
+</li>
+<li>
+<p>Install the CodeDeploy agent</p>
+</li>
+<li>
+<p>Why do we need CodeDeploy agent? ; It automates code deployments to any instance, including Amazon EC2 instances and instances running on EC2.</p>
+</li>
+<li>
+<p>Attach <strong>Tags</strong> to the EC2 instance. WHY? : Create all the resources of one project under one tag, helps in filtering the AWS resources. Here, we need tag for the code deploy service to id the target EC2 instance, we can assign single or multiple ec2 instances using tags.</p>
+</li>
+<li>
+<p>Now, we need a permissions -</p>
+<ul>
+<li>As, our target EC2 instance going to talk to Code Depoly and vice versa.</li>
+<li>So, create two service roles, for Code Deploy and EC2.</li>
+</ul>
+</li>
+<li>
+<p>Add another IAM policy to our group to view <strong>Tags</strong> Keys and values.</p>
+</li>
+<li>
+<p>Finally create the Deployment.</p>
+</li>
+<li>
+<p>Upload our .env file on EC2 using <a
+  href="https://linuxhandbook.com/transfer-files-ssh/"
+    target="_blank"
+  >SSH</a> . It stores the AWS Credentials as API is using Dynamo DB.</p>
+</li>
+<li>
+<p><strong>Depolyment Group</strong></p>
+<ul>
+<li>Create a Deployment Group.</li>
+</ul>
+</li>
+<li>
+<p>Create a <strong>appspec.yml</strong></p>
+<ul>
+<li>Here, we define how we want to deploy and run the application, need two scripts to start and stop the container.</li>
+</ul>
+</li>
+</ul>
+<pre tabindex="0"><code># appspec.yml
+version: 0.0
+os: linux
+
+hooks:
+  ApplicationStop:
+    - location: scripts/stop_container.sh
+      timeout: 300
+      runas: root
+
+  AfterInstall:
+    - location: scripts/start_container.sh
+      timeout: 300
+      runas: root
+</code></pre>
+<h2 class="relative group">Running the API
+    <div id="running-the-api" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#running-the-api" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Run Migration First from container shell to create the <em>AWS Dynamo DB</em> Table.</li>
+</ul>
+<pre tabindex="0"><code>docker exec -it &lt;docker container id&gt; bash
+go run migrations/migrations.go
+</code></pre>
+<h2 class="relative group">ERRORS
+    <div id="errors" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#errors" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ol>
+<li>
+<p><strong>AWS CodeBuild</strong>
+CodeDeploy agent was not able to receive the lifecycle event. Check the CodeDeploy agent logs on your host and make sure the agent is running and can connect to the CodeDeploy server.</p>
+<p><strong>SOLUTION</strong>:</p>
+<ul>
+<li>Check Logs at /var/log/aws/codedeploy-agent</li>
+<li>Restart codedeploy agent service</li>
+<li>Check IAM role policies for Code Deploy and EC2</li>
+</ul>
+</li>
+<li>
+<p><strong>AWS CodePipeline</strong>
+Unable to create role</p>
+<ul>
+<li>for primary source and source version arn:aws:s3:::codepipeline-ap-south-1-972545925755/view_tracking_pipeli/SourceArti/Od8R23</li>
+</ul>
+<p><strong>SOLUTION</strong>:</p>
+<ul>
+<li>
+<p><a
+  href="https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#codebuild-role-connections"
+    target="_blank"
+  >https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#codebuild-role-connections</a></p>
+</li>
+<li>
+<p><a
+  href="https://stackoverflow.com/questions/64300151/aws-codebuild-failed-client-error-authorization-failed-for-primary-source-and-s"
+    target="_blank"
+  >https://stackoverflow.com/questions/64300151/aws-codebuild-failed-client-error-authorization-failed-for-primary-source-and-s</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>AWS CodeDeploy</strong> during running the CodePipeline
+Same Issue with Code Deploy - Unable to access the artifact with Amazon S3 object key &lsquo;view_tracking_pipeli/BuildArtif/mOIyXyD&rsquo; located in the Amazon S3 artifact bucket &lsquo;codepipeline-ap-south-1-972545925755&rsquo;. The provided role does not have sufficient permissions.</p>
+<p><strong>SOLUTION</strong>:</p>
+<ul>
+<li>Uploading Build Artifact Error - <a
+  href="https://medium.com/@shanikae/insufficient-permissions-unable-to-access-the-artifact-with-amazon-s3-247f27e6cdc3"
+    target="_blank"
+  >https://medium.com/@shanikae/insufficient-permissions-unable-to-access-the-artifact-with-amazon-s3-247f27e6cdc3</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Cache Invalidation issue of CloudFront</strong>
+Cache Invaildation Issue: Latest changes are unavailable to the users because the contents are cached at the CloudFront edge locations. The default caching policy keeps the contents cached for up to 24 hours (TTL).</p>
+<p><strong>SOLUTION</strong>:</p>
+<ul>
+<li><a
+  href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html#invalidating-objects-api"
+    target="_blank"
+  >https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html#invalidating-objects-api</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><strong>QUESTIONS</strong></p>
+<ul>
+<li>Why do we need the Deployment Groups?</li>
+<li>Why do we need to upload Artifacts to S3 bucket during AWS CodePipeline</li>
+</ul>
+<hr>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+        <a
+          target="_blank"
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/&amp;title=Resume%20Ops%20-%20AWS%20Static%20Resume%20&amp;%20View-Tracking"
+          title="Share on LinkedIn"
+          aria-label="Share on LinkedIn">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span>
+        </a>
+      
+    
+      
+        <a
+          target="_blank"
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://twitter.com/intent/tweet/?url=http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/&amp;text=Resume%20Ops%20-%20AWS%20Static%20Resume%20&amp;%20View-Tracking"
+          title="Tweet on Twitter"
+          aria-label="Tweet on Twitter">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
+        </a>
+      
+    
+      
+        <a
+          target="_blank"
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="mailto:?body=http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/&amp;subject=Resume%20Ops%20-%20AWS%20Static%20Resume%20&amp;%20View-Tracking"
+          title="Send via email"
+          aria-label="Send via email">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span>
+        </a>
+      
+    
+  </section>
+
+
+        
+  
+  
+    <h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+    <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      
+        
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+    
+  
+
+  
+  
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/Ayodhya-Mahesh-Babu-Portfolio/contact/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Contact
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-10-17T23:15:37&#43;05:30">17 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span
+    id="views_contact\index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="views"
+    >loading</span
+  >
+  <span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></span>
+</span>
+
+    
+
+    
+    
+  </div>
+
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  
+
+  
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      
+        
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+    
+  
+
+  
+  
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/Ayodhya-Mahesh-Babu-Portfolio/resume/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-10-17T18:43:00&#43;05:30">17 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span
+    id="views_resume\index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="views"
+    >loading</span
+  >
+  <span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></span>
+</span>
+
+    
+
+    
+    
+  </div>
+
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  
+
+  
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      
+    </section>
+  
+
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/Ayodhya-Mahesh-Babu-Portfolio/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_projects\aws_resume\index.md"
+          data-oid-likes="likes_projects\aws_resume\index.md"></script>
+      
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-24 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/Ayodhya-Mahesh-Babu-Portfolio/contact/"
+                title="Contact">
+                
+                  <span class="mr-1">
+                    <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></span>
+                  </span>
+                
+                Contact me
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="https://github.com/ayodhya16"
+                title="">
+                
+                  <span >
+                    <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span>
+                  </span>
+                
+                
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="https://x.com/maheshbabu168"
+                title="">
+                
+                  <span >
+                    <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
+                  </span>
+                
+                
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="https://www.linkedin.com/in/ayodhya-mahesh-babu-387845254/"
+                title="">
+                
+                  <span >
+                    <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span>
+                  </span>
+                
+                
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          © 2025 Ayodhya Mahesh Babu
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/Ayodhya-Mahesh-Babu-Portfolio/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>

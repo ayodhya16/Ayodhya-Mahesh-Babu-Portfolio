@@ -12,28 +12,30 @@ permissions:
   id-token: write
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository (with submodules)
-        uses: actions/checkout@v4
+      # 1. Checkout your repo with submodules
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      # 2. Setup Hugo
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.151.0'
           extended: true
 
+      # 3. Build Hugo site from repo root
       - name: Build Hugo site
         run: hugo --minify -D
 
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+      # 4. Upload public folder as artifact
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      # 5. Deploy to GitHub Pages
+      - uses: actions/deploy-pages@v4
         id: deployment

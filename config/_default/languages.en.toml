@@ -1,0 +1,28 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ayodhya Mahesh Babu"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+#logo = ""
+  #secondaryLogo = "img/me.jpg"
+  description = "Ayodhya Mahesh Babu, Engineer."
+  copyright = "&copy; 2025 Ayodhya Mahesh Babu"
+
+[author]
+  name = "Ayodhya Mahesh Babu"
+  image = "img/profile.jpg"
+  headline = "Engineer"
+  bio = "Engineer"
+  links = [
+    { email = "mailto:maheshbabumb08@gmail.com" },
+    { x-twitter = "https://x.com/maheshbabu168" },
+    { linkedin = "https://www.linkedin.com/in/ayodhya-mahesh-babu-387845254/" },
+    { github = "https://github.com/ayodhya16" },
+    { gitlab = "https://gitlab.com/ayodhyamaheshbabu" },
+    { youtube = "https://www.youtube.com/@maheshbabu2221" },
+   ]

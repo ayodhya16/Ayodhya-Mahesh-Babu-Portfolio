@@ -3,6 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/</loc>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/</loc>
+    <lastmod>2025-10-17T23:15:37+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/contact/</loc>
+    <lastmod>2025-10-17T23:15:37+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/</loc>
+    <lastmod>2025-10-17T23:15:37+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</loc>
+    <lastmod>2025-10-17T23:15:37+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/resume/</loc>
+    <lastmod>2025-10-17T18:43:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/notes/backend/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/notes/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

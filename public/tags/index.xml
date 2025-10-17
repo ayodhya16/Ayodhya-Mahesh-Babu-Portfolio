@@ -2,12 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ayodhya Mahesh Babu</title>
-    <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/tags/</link>
+    <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/</link>
     <description>Recent content in Tags on Ayodhya Mahesh Babu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2025 </copyright>
-    <atom:link href="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>&amp;copy; 2025 Ayodhya Mahesh Babu</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 23:15:37 +0530</lastBuildDate><atom:link href="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS Certificate Manager</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-certificate-manager/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-certificate-manager/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AWS CodeBuild</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-codebuild/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-codebuild/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AWS CodeDeploy</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-codedeploy/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-codedeploy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AWS CodePipeline</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-codepipeline/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-codepipeline/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AWS Systems Manager</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-systems-manager/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/aws-systems-manager/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cloudfront</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/cloudfront/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/cloudfront/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dynamo DB</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/dynamo-db/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/dynamo-db/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/go/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/go/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Route 53</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/route-53/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/route-53/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/s3/</link>
+      <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
+      
+      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/s3/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
