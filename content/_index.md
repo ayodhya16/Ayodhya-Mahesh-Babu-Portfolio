@@ -84,7 +84,7 @@
     <h1>Hi, I am Mahesh Babu</h1>
     <span class="subheading">Engineer</span> <!-- Changed to span with subheading class -->
     <h2>What do I do?</h2>
-    <p align="left">I build scalable, high-performance systems —APIs, microservices, and distributed systems, while driving automation, reliability, and cloud-ready infrastructure through DevOps expertise. My work empowers teams and delivers results that scale.
+    <p align="left">I build scalable, high-performance systems - APIs, microservices, and distributed systems, while driving automation, reliability, and cloud-ready infrastructure through DevOps expertise. My work empowers teams and delivers results that scale.
     </p>
     </div>
     <section class="connect-me-section">

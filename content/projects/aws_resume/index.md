@@ -67,7 +67,7 @@ Host the content on S3 Bucket
 > **Issue :** We unchecked the ***Block Public Access***, which makes the S3 bucket's content accessible to everyone even to hackers which is an security issue.
 
 ## Why do we need Cloudfront?
-Now our website is puclicly accessible, why do we need the Cloudfront.
+Now our website is publicly accessible, why do we need the Cloudfront.
 
 CloudFront is a Content Delivery Network(CDN) service also provided by AWS, it enables users to deliver content globally with low latency, high data transfer speed, and securely delivered.
 leveraging AWS edge locations around the world to cache and deliver content from the nearest location to the user, reducing latency and improving performance.
