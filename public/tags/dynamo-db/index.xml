@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dynamo DB on Ayodhya Mahesh Babu</title>
-    <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/dynamo-db/</link>
+    <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/tags/dynamo-db/</link>
     <description>Recent content in Dynamo DB on Ayodhya Mahesh Babu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2025 Ayodhya Mahesh Babu</copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 23:15:37 +0530</lastBuildDate><atom:link href="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/tags/dynamo-db/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Oct 2025 23:15:37 +0530</lastBuildDate><atom:link href="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/tags/dynamo-db/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Resume Ops - AWS Static Resume &amp; View-Tracking</title>
-      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</link>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</link>
       <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
       
-      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</guid>
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</guid>
       <description>&lt;p&gt;End-to-End Production-Grade Deployment: Advanced DevOps Practices on AWS&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img
     class=&#34;my-0 rounded-md&#34;
@@ -61,7 +61,7 @@
   href=&#34;https://themes.3rdwavemedia.com/bootstrap-templates/resume/risen-free-bootstrap-5-dark-mode-resume-cv-template-for-developers/&#34;
     target=&#34;_blank&#34;
   &gt;Bootstrap Template&lt;/a&gt;.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png" />
     </item>
     
   </channel>

@@ -2,19 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ayodhya Mahesh Babu</title>
-    <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/</link>
+    <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/</link>
     <description>Recent content on Ayodhya Mahesh Babu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2025 Ayodhya Mahesh Babu</copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 23:15:37 +0530</lastBuildDate><atom:link href="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hand Gesture Volume Control</title>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/hand_gesture_volume/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/hand_gesture_volume/</guid>
+      <description>&lt;p&gt;A real-time computer vision project where I control system volume using hand gestures instead of a keyboard or mouse.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;&#34;
+    src=&#34;./img1.png&#34;
+    &gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Problem Statement
+    &lt;div id=&#34;problem-statement&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#problem-statement&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Traditional volume control depends on physical input devices. In many real situations—presentations, distance interaction, and quick hands-free use—this is not convenient.&lt;/p&gt;
+&lt;p&gt;This project was built to create a &lt;strong&gt;touch-free volume control interface&lt;/strong&gt; that can:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/hand_gesture_volume/feature.png" />
+    </item>
+    
+    <item>
+      <title>AWS Certified Cloud Practitioner</title>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;AWS Certified Cloud Practitioner
+    &lt;div id=&#34;aws-certified-cloud-practitioner&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#aws-certified-cloud-practitioner&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Platform:&lt;/strong&gt; Amazon Web Services (AWS)&lt;br&gt;
+&lt;strong&gt;Year:&lt;/strong&gt; 2026&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;&#34;
+    width=&#34;1051&#34;
+    height=&#34;770&#34;
+    src=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/preview_hu_da0f293800311f57.png&#34;
+    srcset=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/preview_hu_da0f293800311f57.png 800w, https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/preview.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/preview.png&#34;&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I completed AWS Cloud training through SMART Academy and successfully earned the Cloud Practitioner certification.&lt;/p&gt;
+&lt;p&gt;This certification validates my understanding of AWS core services, cloud concepts, billing, pricing, and architecture principles.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/awscloudpract/feature.png" />
+    </item>
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/contact/</link>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/contact/</link>
       <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
       
-      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/contact/</guid>
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/contact/</guid>
       <description>&lt;style&gt;
         h1 {
             text-align: left;
@@ -115,10 +181,10 @@
     
     <item>
       <title>Resume Ops - AWS Static Resume &amp; View-Tracking</title>
-      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</link>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</link>
       <pubDate>Fri, 17 Oct 2025 23:15:37 +0530</pubDate>
       
-      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</guid>
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/</guid>
       <description>&lt;p&gt;End-to-End Production-Grade Deployment: Advanced DevOps Practices on AWS&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img
     class=&#34;my-0 rounded-md&#34;
@@ -165,15 +231,15 @@
   href=&#34;https://themes.3rdwavemedia.com/bootstrap-templates/resume/risen-free-bootstrap-5-dark-mode-resume-cv-template-for-developers/&#34;
     target=&#34;_blank&#34;
   &gt;Bootstrap Template&lt;/a&gt;.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/projects/aws_resume/featured.png" />
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/resume/</link>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/</link>
       <pubDate>Fri, 17 Oct 2025 18:43:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/resume/</guid>
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Resume PDF
     &lt;div id=&#34;resume-pdf&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -183,17 +249,31 @@
     &lt;/span&gt;
     
 &lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;&#34;
+    width=&#34;1536&#34;
+    height=&#34;1024&#34;
+    src=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/feature_hu_e5a4df0c266d1b71.png&#34;
+    srcset=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/feature_hu_e5a4df0c266d1b71.png 800w, https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/feature_hu_5a9b5e255a4d37de.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/feature.png&#34;&gt;&lt;/figure&gt;
+
 &lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  href=&#34;https://drive.google.com/file/d/1L59ylcOQ5lVEtz1nI0MiPcMaQTN7d_o0/view?usp=sharing&#34;
-  target=&#34;_blank&#34;
+  href=&#34;https://drive.google.com/file/d/1Fkg0DAlfBHG9d44LLz0CNdAXazg9GbSC/view?usp=sharing&#34;
+  
   
   role=&#34;button&#34;&gt;
   
-View Resume PDF
+
+Resume PDF -  Click here to view
 
 &lt;/a&gt;
-
+&lt;/p&gt;
 
 &lt;h2 class=&#34;relative group&#34;&gt;About
     &lt;div id=&#34;about&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
@@ -204,17 +284,57 @@ View Resume PDF
     &lt;/span&gt;
     
 &lt;/h2&gt;
-&lt;p&gt;I’m Ayodhya Mahesh Babu, a recent B.Tech (Computer Science) graduate and a hands-on fresher focused on full-stack development and cloud engineering.&lt;/p&gt;
-&lt;p&gt;I build production-oriented web apps and deploy them to the cloud using CI/CD and container workflows, and I hold an AWS Cloud Practitioner certification and I’m currently strengthening my cloud skills through an AWS Cloud training program at Tech Mahindra Smart Academy.&lt;/p&gt;</description>
+&lt;p&gt;I’m Ayodhya Mahesh Babu, a recent B.Tech (Computer Science) graduate and a hands-on fresher focused on full-stack development and cloud engineering.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/resume/feature.png" />
+    </item>
+    
+    <item>
+      <title>SAP Certified – SAP Generative AI Developer</title>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
       
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;SAP Certified – SAP Generative AI Developer
+    &lt;div id=&#34;sap-certified--sap-generative-ai-developer&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#sap-certified--sap-generative-ai-developer&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Platform:&lt;/strong&gt; SAP&lt;br&gt;
+&lt;strong&gt;Year:&lt;/strong&gt; 2025&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;&#34;
+    width=&#34;2048&#34;
+    height=&#34;2048&#34;
+    src=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/feature_hu_7a7a5d1efeb08ed6.png&#34;
+    srcset=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/feature_hu_7a7a5d1efeb08ed6.png 800w, https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/feature_hu_94fd363667dc9b87.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/feature.png&#34;&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This certification verifies my ability to work with SAP Business AI capabilities and extend SAP BTP applications using Large Language Models (LLMs).&lt;/p&gt;
+&lt;p&gt;I gained hands-on experience with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SAP AI Core&lt;/li&gt;
+&lt;li&gt;SAP AI Launchpad&lt;/li&gt;
+&lt;li&gt;SAP Generative AI Hub&lt;/li&gt;
+&lt;li&gt;Enterprise AI Integration&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/certifications/sap/feature.png" />
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/notes/backend/</link>
+      <link>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/notes/backend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/notes/backend/</guid>
+      <guid>https://ayodhya16.github.io/Ayodhya-Mahesh-Babu-Portfolio/notes/backend/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;
     &lt;div id=&#34;&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
