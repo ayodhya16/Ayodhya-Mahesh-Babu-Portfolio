@@ -5,9 +5,12 @@ draft: false
 description: ""
 ---
 ## Resume PDF
-{{< button href="https://drive.google.com/file/d/1L59ylcOQ5lVEtz1nI0MiPcMaQTN7d_o0/view?usp=sharing" target="_blank" >}}
-View Resume PDF
+![](feature.png)
+{{< button href="https://drive.google.com/file/d/1Fkg0DAlfBHG9d44LLz0CNdAXazg9GbSC/view?usp=sharing" >}}
+
+Resume PDF -  Click here to view
 {{< /button >}}
+
 
 ## About
 I’m Ayodhya Mahesh Babu, a recent B.Tech (Computer Science) graduate and a hands-on fresher focused on full-stack development and cloud engineering. 

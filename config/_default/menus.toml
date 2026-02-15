@@ -9,35 +9,41 @@
   weight = 20
 
 [[main]]
+  name = "Certifications"
+  url = "/certifications/"
+  weight = 30
+
+
+[[main]]
   identifier = "envelope"
   pre = "envelope"
   name = "Contact"
   pageRef = "contact"
-  weight = 30
+  weight = 40
 
 [[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/ayodhya16"
-  weight = 40
+  weight = 50
 
 [[main]]
   identifier = "twitter"
   pre = "x-twitter"
   url = "https://x.com/maheshbabu168"
-  weight = 50
+  weight = 60
 
 [[main]]
   identifier = "yt"
   pre = "youtube"
   url = "https://www.youtube.com/@maheshbabu2221"
-  weight = 60
+  weight = 70
 
 [[main]]
   identifier = "linkedin"
   pre = "linkedin"
   url = "https://www.linkedin.com/in/ayodhya-mahesh-babu-387845254/"
-  weight = 70
+  weight = 80
 
 [[footer]]
   name = "Contact me"

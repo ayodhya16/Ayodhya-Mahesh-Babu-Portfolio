@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: http://localhost:1313/Ayodhya-Mahesh-Babu-Portfolio/sitemap.xml
